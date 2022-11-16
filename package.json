@@ -1,0 +1,25 @@
+{
+  "name": "adopt-me-fem",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint \"src/**/*.{js,jsx}\" --quiet"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TomBirbeck/adopt-me-fem.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TomBirbeck/adopt-me-fem/issues"
+  },
+  "homepage": "https://github.com/TomBirbeck/adopt-me-fem#readme",
+  "devDependencies": {
+    "eslint": "^8.8.0",
+    "eslint-config-prettier": "^8.3.0"
+  }
+}

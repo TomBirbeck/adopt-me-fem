@@ -3,7 +3,7 @@ import { Component } from 'react';
 import { Link, Navigate } from 'react-router-dom';
 
 class ErrorBoundary extends Component {
-  state = { hasError: falsem, redirect: false };
+  state = { hasError: false, redirect: false };
   static getDerivedStateFromErro() {
     return { hasError: true };
   }
@@ -27,9 +27,8 @@ class ErrorBoundary extends Component {
     } else if (this.state.hasError) {
       return (
         <h2>
-          There was an error.
-          <Link to='/'>Click here</Link> to go back to the homepage or wait 5
-          seconds and we will do if for you.
+          There was an error. <Link to='/'>Click here</Link> to go back to the
+          homepage or wait 5 seconds and we will do if for you.
         </h2>
       );
     }
